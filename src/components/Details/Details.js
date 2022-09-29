@@ -6,7 +6,11 @@ import './Details.css';
 const Details = ({studyTime}) => {
     
     const minutes = [5, 10, 15, 20];
-    
+    const [breakTime, setBreakTime] = useState(0);
+    const addBreakTime = (time) => {
+        const newBreakTime = time;
+        setBreakTime(newBreakTime);
+    }
     return (
         
         <div className='details'>
@@ -14,7 +18,7 @@ const Details = ({studyTime}) => {
             <h4>Add a Break</h4>
             <div className='break-details'>
                 {
-                minutes.map(minute => <button  className='break-btn'>{minute}min</button>)
+                minutes.map(minute => <button key={minute} onClick={() => addBreakTime(minute)}  className='break-btn'>{minute}min</button>)
                 }
             </div>
             <div className="study-details">
@@ -25,7 +29,7 @@ const Details = ({studyTime}) => {
                 </div>
                 <div className='break-time'>
                     <p>Break time</p>
-                    <small>100 minutes</small>
+                    <small>{breakTime} minutes</small>
                 </div>
             </div>
             <button className='completed-btn'>Activity Completed</button>

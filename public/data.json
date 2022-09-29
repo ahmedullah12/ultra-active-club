@@ -26,14 +26,14 @@
       "id": "4",
       "description": "Physics class 10",
       "image": "https://i.ibb.co/PzdX2wd/physics.png",
-      "time": 25,
+      "time": 35,
       "name": "Physics"
     },
     {
       "id": "5",
       "description": "Chemistry class 10",
       "image": "https://i.ibb.co/0Q41jqk/chemistry.jpg",
-      "time": 30,
+      "time": 40,
       "name": "Chemistry"
     },
     {

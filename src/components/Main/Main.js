@@ -16,7 +16,7 @@ const Main = () => {
 
     const addStudyTime = (time) => {
         const newStudyTime = time + studyTime;
-        setStudyTime(newStudyTime)
+        setStudyTime(newStudyTime);
     }
     return (
         <div className='activity-container'>
