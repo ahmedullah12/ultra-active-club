@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { addToDB, getStoredTime } from '../../utilities/fakedb';
 import Person from '../Person-Details/Person';
 import './Details.css';
 
@@ -7,10 +8,16 @@ const Details = ({studyTime}) => {
     
     const minutes = [5, 10, 15, 20];
     const [breakTime, setBreakTime] = useState(0);
+
+    
+    
+
     const addBreakTime = (time) => {
         const newBreakTime = time;
         setBreakTime(newBreakTime);
+        addToDB(time);
     }
+
     return (
         
         <div className='details'>
