@@ -8,7 +8,8 @@ const Tasks = ({tasks}) => {
         <div className='task'>
             <img src={image} alt="" />
             <h3>Subject Name: {name}</h3>
-            <p>Time Required: {time} minutes</p>
+            
+            <p>Time Required: <span>{time} minutes</span></p>
             <button>Add to list</button>
         </div>
     );

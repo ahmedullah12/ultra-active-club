@@ -1,6 +1,6 @@
 .activity-container{
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2fr 1fr;
     grid-gap: 30px;
 }
 
@@ -24,4 +24,9 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
+}
+
+.details-container{
+    margin-left: 120px;
+    background-color: white;
 }

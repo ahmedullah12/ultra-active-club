@@ -1,0 +1,48 @@
+.details{
+    margin: 20px 30px;
+    text-align: start;
+}
+.completed-btn{
+    width: 90%;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 10px;
+}
+
+.break-details{
+    height: 100px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    border-radius: 20px;
+}
+.break-btn{
+    height: 50px;
+    width: 50px;
+    font-weight: bolder;
+    color: black;
+    background-color: lightblue;
+    border: none;
+    border-radius: 50%;
+}
+
+.study-time{
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.break-time{
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+}

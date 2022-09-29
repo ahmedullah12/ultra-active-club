@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
+import Details from '../Details/Details';
 import Tasks from '../Tasks/Tasks';
 import './Main.css'
 
 const Main = () => {
+    
     const [tasks, setTasks] = useState([]);
     
     useEffect(() => {
@@ -23,7 +25,7 @@ const Main = () => {
             </div>
 
             <div className='details-container'>
-                <h1>Ahmed</h1>
+                <Details></Details>
             </div>
         </div>
 
