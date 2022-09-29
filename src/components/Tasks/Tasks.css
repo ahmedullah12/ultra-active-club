@@ -1,0 +1,19 @@
+.task{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+.task img{
+    width: 80%;
+    height: 250px;
+    border-radius: 30px;
+}
+.task button{
+    background-color: antiquewhite;
+    width: 90%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}

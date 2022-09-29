@@ -2,43 +2,45 @@
     {
       "id": "1",
       "description": "Bangla first paper class 10",
-      "image": "https://ibb.co/hmjy1RT",
-      "time": 37,
+      "image": "https://i.ibb.co/5Ry6xWJ/bangla.jpg",
+      "time": 30,
       "name": "Bangla"
     },
     {
       "id": "2",
       "description": "English class 10",
-      "image": "https://ibb.co/ZTXSC3b",
-      "time": 30,
+      "image": "https://i.ibb.co/kcBJFpP/English.jpg",
+      "time": 35,
       "name": "English"
     },
+    
     {
       "id": "3",
       "description": "Mathematics class 10",
-      "image": "https://ibb.co/3rwSWjz",
+      "image": "https://i.ibb.co/YR6f81Z/math.png",
       "time": 40,
       "name": "Mathematics"
     },
+    
     {
       "id": "4",
       "description": "Physics class 10",
-      "image": "https://ibb.co/M5mwzMm",
+      "image": "https://i.ibb.co/PzdX2wd/physics.png",
       "time": 25,
       "name": "Physics"
     },
     {
       "id": "5",
       "description": "Chemistry class 10",
-      "image": "https://ibb.co/JC68RnN",
-      "time": 32,
+      "image": "https://i.ibb.co/0Q41jqk/chemistry.jpg",
+      "time": 30,
       "name": "Chemistry"
     },
     {
       "id": "6",
       "description": " Biology class 10",
-      "image": "https://ibb.co/ZM7PTBQ",
-      "time": 25,
+      "image": "https://i.ibb.co/gRhpgS0/biology.png",
+      "time": 20,
       "name": "Biology"
     }
   ]
