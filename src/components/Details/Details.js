@@ -9,7 +9,15 @@ const Details = ({studyTime}) => {
     const minutes = [5, 10, 15, 20];
     const [breakTime, setBreakTime] = useState(0);
 
-    
+    useEffect(() => {
+        let newTime = 0;
+        const storedTime = getStoredTime();
+        console.log(storedTime);
+        if(storedTime.time){
+            newTime = storedTime.time;
+            setBreakTime(newTime);
+        };
+    }, [])
     
 
     const addBreakTime = (time) => {
